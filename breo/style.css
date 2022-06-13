@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* 共通部分　*/
+html {
+    font-size: 100%;
+}
+body {
+
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+#home {
+    background-image: linear-gradient(darkorange, turquoise);
+}
+/* HEADER */
+.logo {
+    margin :20px 0 0 35px;
+    position: relative;
+}
+.TEL{
+    position: absolute;
+    left: 1355px;
+    top: 20px;
+}
+
+
+.nav{
+    height: 50px;
+    background-color:lightcyan;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav{
+    font-size: 1.25rem;    
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.main-nav a{
+    color:sandybrown;
+}                                                                                                                       
+.main-nav a:hover {
+    color:cornflowerblue;
+}
+
+/* .nav_li {
+    background-color: orange;
+} */
+
+/* CONTENTN */
+.main-contents{
+    background-color: #f4ebdf;
+}
+.content {
+    padding: 20px 10% 0 10%;
+}
+.contents-in {
+    padding-top: 20px
+}
+#spot-top{
+    padding-top: 20px;
+}
+.spot {
+    padding-bottom: 35px;
+}
+.content h2{
+    border-left: solid 5px cornflowerblue;
+    background-color: azure;
+    padding: 8px 0 5px 5px;
+}
+.content ul{
+    list-style-type: none;
+}
+.content li {
+    
+    list-style-position: inside;
+
+}
+.content li::after {
+
+  }
+.img-p {
+    display: flex;
+    justify-content: space-between;
+}
+.img-p p{
+    padding-left: 10px;
+    padding-top: 150px;
+}
+
+/* access */
+.access-content{
+    background-color: #f4ebdf;
+    padding: 20px 10% 0 10%;
+}
+
+/* contact */
+.contact-wrapper{
+    padding: 20px 10% 0 10%;
+    background-image: linear-gradient(lightcyan, sandybrown);
+    min-height: 100vh;
+}
+.form div{
+    margin-bottom: 14px;
+}
+label{
+    font-size: 1.125rem;
+    margin-top: 10px;
+    display: block;
+}
+input[type="text"],
+input[type=email],
+textarea {
+    background: rgba(red, green, blue, .5);
+    border: 1px #778899 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type=email] {
+    width: 100%;
+    max-width: 240px;
+}
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height:6rem;
+}
+input[type="submit"] {
+    font-size: 15px;
+    border:none;
+    cursor: pointer;
+    line-height: 1;
+    border: 2px  #778899 solid ;
+}
+
+
+/* footer */
+footer{
+    padding: 40px 10% 0 10%;
+    background-color:gray;
+    color: oldlace;
+}
